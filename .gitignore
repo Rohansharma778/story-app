@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# VS Code settings
+.vscode/
+
+# Coverage reports
+coverage/
+
+# Optional: Ignore uploads or user-generated files
+uploads/git remote set-url origin https://github.com/your-username/story-app.git

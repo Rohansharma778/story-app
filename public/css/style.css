@@ -1,0 +1,23 @@
+p{
+    margin: 10px 0 !important;
+}
+
+.login-container{
+    height: 400px;
+    width: 300px;
+    margin-top: 50px;
+    text-align: center;
+}
+.sidenav-trigger {
+  display: block !important;
+}
+.fa-small{
+  font-size:18px !important;
+}
+.btn-float{
+  float: left;
+  margin-right:10px;
+}
+.img-small{
+  width: 180px;
+}
