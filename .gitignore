@@ -2,7 +2,7 @@
 node_modules/
 
 # Environment variables
-.env
+config.env
 
 # Logs
 logs/
@@ -25,5 +25,4 @@ build/
 # Coverage reports
 coverage/
 
-# Optional: Ignore uploads or user-generated files
-uploads/git remote set-url origin https://github.com/your-username/story-app.git
+uploads/
