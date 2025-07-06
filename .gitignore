@@ -2,6 +2,7 @@
 node_modules/
 
 # Environment variables
+.env
 config.env
 
 # Logs
@@ -25,4 +26,5 @@ build/
 # Coverage reports
 coverage/
 
+# Optional: Ignore uploads or user-generated files
 uploads/
