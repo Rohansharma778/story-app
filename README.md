@@ -1,12 +1,12 @@
 # story-app
 
 **For backend**
-_javascript_
-_node+express_
-_Mongodb+mongoose_
-_express session_
-_google Oauth_
-_passport_
+_javascript_,
+_node+express_,
+_Mongodb+mongoose_,
+_express session_,
+_google Oauth_,
+_passport_,
 
 
 **For Frontend**
