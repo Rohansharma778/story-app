@@ -41,7 +41,6 @@ if(process.env.NODE.ENV==='development'){
 
 //handlerbars helper 
 const {formatDate,stripTags,truncate,editIcon,select}=require('./helper/hbs')
-const { default: next } = require('next')
 
 //handlebars
 const hbs = exphbs.create({
@@ -97,6 +96,13 @@ app.use((err, req, res, next) => {
   res.status(500).render('error/500');
 });
 
-const PORT =process.env.PORT||3000
+// Export for Vercel serverless
+module.exports = app;
 
-app.listen(PORT ,console.log(`server running in ${process.env.NODE_ENV} mode on port ${PORT}`))
+// Only listen when running locally (not on Vercel)
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+  const PORT = process.env.PORT || 3000;
+  app.listen(PORT, () => {
+    console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
+  });
+}
